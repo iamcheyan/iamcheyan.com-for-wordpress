@@ -1,0 +1,24 @@
+﻿/* page */
+body { width:100%}
+section.page { margin:0 auto; _width:960px; position:relative; font-family:"Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun}
+che { text-align:right; position:absolute; height:100%; min-width:235px; width:20%; left:-10px; top:0; _top:auto; z-index:3; background: url(../img/bg.gif) repeat center center #fff; *left:-240px; _left:-260px}
+che header { position:fixed; top:50%; margin-top:-100px; padding-left:68px; _margin:0; _position:absolute}
+che header span { text-transform:uppercase}
+che header img { position:relative; right:-15px}
+che nav { text-align:center; position:absolute; top:12%; left:50%;  margin-left:11px; display: none\9 }
+che nav li { padding:8px 0; position:relative;  width:22px; height:22px;}
+che nav li a { display:inline-block; width:22px; height:22px; background:url(../img/ico.gif) no-repeat; text-indent:99em; overflow:hidden; opacity:.2; position:absolute; left:0; top:0}
+che nav li.link a { background-position: 0 0;}
+che nav li.link a:hover { background-position: 0 -22px;}
+che nav li.search a { background-position:0 -54px}
+che nav li.search a:hover { background-position: 0 -76px;}
+che nav li.search form { position:relative; top:-10px; left:30px; opacity:0 }
+che nav li.search form input { border:2px solid #ccc; height:22px; line-height:22px; padding:0 4px; border-radius:8px; color:#cecece; width:110px; padding-right:22px; outline: none;}
+che nav li.search form input.focus { color: #333; background-color: #f6f6f6}
+che nav li.search form button { height:16px; width:11px; background:url(../img/ico.gif) -0px -162px no-repeat; text-indent:-99em; overflow:hidden; border:none; opacity:.2; cursor:pointer; position:absolute; right:-112px;top:5px}
+che nav li.search form button:hover {  background-position: -11px -162px;}
+che nav li.rss a { background-position:0 -108px}
+che nav li.rss a:hover { background-position:0 -130px}
+che footer { position:fixed; bottom:20px; margin-left:-60px; text-transform:uppercase; display:none\9}
+section.content { width:60%; max-width:650px; _margin:580px; position:relative; border-left:1px solid #ddd; margin:0 auto;}
+section.main { padding:50px 0 50px 40px}

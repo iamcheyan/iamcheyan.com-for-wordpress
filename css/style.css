@@ -1,0 +1,204 @@
+@charset "utf-8";
+body { color: #333; background: #fff; -webkit-text-size-adjust:none;}
+a:hover { text-decoration: underline }
+abbr,
+acronym { border: 0; font-variant: normal }
+address,caption,cite,code,dfn,em,th,var { font-style: normal; font-weight: 500 }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,iframe { display: block }
+audio,canvas,video { display: inline-block; *display: inline; *zoom: 1 }
+body .fn-hide { display: none }
+body,button,input,select,textarea { font: 12px/1.5 tahoma,arial,\5b8b\4f53 }
+body { font-family:Helvetica, Arial,\5b8b\4f53}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,che { margin: 0; padding: 0 }
+caption,
+th { text-align: left }
+del { text-decoration: line-through }
+fieldset,
+img { border: 0 }
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: 500 }
+input,
+select,
+textarea { font-size: 100% }
+ins,
+a { text-decoration: none}
+ol,
+ul { list-style: none }
+q:before,
+q:after { content: '' }
+sub { bottom: -0.25em }
+sub,
+sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline }
+sup { top: -0.5em }
+table { border-collapse: collapse; border-spacing: 0 }
+th { text-align: inherit }
+body a { color:#666}
+body a:hover,
+.ui-red { color:#ac4000;
+-webkit-transition-property:color;
+-o-transition-property:color;
+-moz-transition-property:color;
+-webkit-transition-duration:.3s;
+-o-transition-duration:.3s;
+-moz-transition-duration:.3s;}}
+.fn-clear { zoom: 1 }
+.fn-clear:after { clear: both; display: block; font-size: 0; content: " "; visibility: hidden; height: 0 }
+.fn-left { float: left }
+.fn-left,
+.fn-right { display: inline }
+.fn-right { float: right }
+.fn-ov { overflow:hidden; _zoom:1}
+.fn-tcenter { text-align:center}
+/* .text */
+textarea.text,
+input.text { border:1px solid #ccc; height:25px; line-height:25px; margin-bottom:5px; padding:0 4px; font-size:12px; font-family:Georgia}
+textarea.text { height:160px; max-height:160px; min-height:160px; width:580px; max-width:580px; min-width:580px; padding:8px 4px; color:#3c3c3c; overflow: auto; overflow-x:hidden; line-height:18px}
+.btn { display:inline-block; border:none; background-color:#333; color:#fff; padding:4px 12px; cursor:pointer}
+body .btn:hover { background-color:#ac4000; box-shadow:2px 2px 0px 0px #D2D2D2; color:#fff;
+-webkit-transition-property:box-shadow;
+-o-transition-property:box-shadow;
+-moz-transition-property:box-shadow;
+-webkit-transition-duration:.3s;
+-o-transition-duration:.3s;
+-moz-transition-duration:.3s;}
+/* 标准样式，在ie系下无效，调用ie.css */
+@media only screen and (min-width: 1200px) {
+body { width:100% }
+che { text-align:right; position:fixed; height:100%; left:0; top:0; z-index:3; background: url(../img/bg.gif) repeat center center #fff; min-width:240px; border-right:1px solid #ddd; }
+che nav { text-align:center; position:absolute; top:12%; left:50%;  margin-left:11px; }
+che nav li { padding:8px 0; position:relative;  width:22px; height:22px;}
+che nav li a { display:inline-block; width:22px; height:22px; background:url(../img/ico.gif) no-repeat; text-indent:99em; overflow:hidden; opacity:.2; position:absolute; left:0; top:0}
+che nav li.link a { background-position: 0 0;}
+che nav li.link a:hover { background-position: 0 -22px;}
+che nav li.search a { background-position:0 -54px}
+che nav li.search a:hover { background-position: 0 -76px;}
+che nav li.search form { position:relative; top:-10px; left:30px; opacity:0 }
+che nav li.search form input { border:2px solid #ccc; height:22px; line-height:22px; padding:0 4px; border-radius:8px; color:#cecece; width:110px; padding-right:22px; outline: none;}
+che nav li.search form input.focus { color: #333; background-color: #f6f6f6}
+che nav li.search form button { height:16px; width:11px; background:url(../img/ico.gif) -0px -162px no-repeat; text-indent:-99em; overflow:hidden; border:none; opacity:.2; cursor:pointer; position:absolute; right:-112px;top:5px}
+che nav li.search form button:hover { opacity: 1; background-position: -11px -162px;
+-webkit-transition-property:background-position;
+-o-transition-property:background-position;
+-moz-transition-property:background-position;
+-webkit-transition-duration:.n3s;
+-o-transition-duration:.3s;
+-moz-transition-duration:.3s;}
+che nav li.rss a { background-position:0 -108px}
+che nav li.rss a:hover { background-position:0 -130px}
+che nav li a:hover { opacity:1;
+-webkit-transition-property:background-position;
+-o-transition-property:background-position;
+-moz-transition-property:background-position;
+-webkit-transition-duration:.n3s;
+-o-transition-duration:.3s;
+-moz-transition-duration:.3s;}
+che header { position:fixed; top:50%; margin-top:-100px; padding-left:60px}
+che header span { text-transform:uppercase}
+che header img { position:relative; right:-15px}
+che footer { position:absolute; bottom:20px; text-transform:uppercase; text-align:right}
+che footer a.time { height:12px; width:12px; text-indent:99em; overflow:hidden; display:inline-block; background:url(../img/ico.gif) 0 -204px no-repeat; position:relative; top:1px}
+che footer a.time:hover { background-position:0 -216px;
+-webkit-transition-property:background;
+-o-transition-property:background;
+-moz-transition-property:background;
+-webkit-transition-duration:.3s;
+-o-transition-duration:.3s;
+-moz-transition-duration:.3s;}
+section.content { width:60%; min-width:665px; position:relative; margin:0 auto;}
+section.main { padding:50px 0 50px 40px}
+/* about me */
+che a.about-me { display:none;}
+}
+/* 公用样式 */
+/* article.post */
+section.page { margin:0 auto; position:relative; font-family:"Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun}
+article.post { padding:50px 0 }
+article.post a.time { font-size:14px; font-weight:bold; display:inline-block; color:#333}
+article.post a.time:hover { color:#ac4000}
+article.post div.con { margin:15px 0; line-height:20px}
+article.post div.con h3 { font-size:1.3em; font-weight:bold; padding:30px 0 5px 0}
+article.post div.con a { color:#ac4000; text-decoration:underline}
+article.post div.con a.btn { color:#fff; margin:5px 0 0 0 }
+article.post div.con p,
+article.post div.con dl,
+article.post div.con ul { margin-bottom:15px}
+article.post div.con p img { margin-top:15px}
+article.post div.con dl dt { font-size: 1em; font-weight: bold; margin: 5px 0}
+article.post div.con dl dd:before { content: "○ "}
+article.post div.con em { display: inline-block; margin: 0 4px; border-radius: 3px;padding: 0 4px; }
+article.post div.con em.code { border: 1px solid #E3E3E3;  background: #F1F1F1;  }
+article.post div.info { text-transform:uppercase; padding-top:10px}
+article.post div.con em.hot { color:#AC4000; border:1px solid #AC4000; background: #f1f1f1; line-height: 16px}
+/* wordpress */
+.wp-caption .wp-caption-text { color: #666; font-style: italic}
+.wp-caption p { margin-bottom: 0 !important}
+/* comments */
+.comments { width:590px; padding-top:50px}
+.comments h6 { padding:5px 0}
+.comments .reply form { padding:10px 0}
+.comments .comments-list { padding:0 0 80px 0}
+.comments .comments-list .comment-li { border-top:1px solid #ddd}
+.comments .comments-list .comment-li .name { font-size:14px }
+.comments .comments-list .comment-li .name a { font-size:14px; color:#333; text-decoration:underline}
+.comments .comments-list .comment-li .date { color:#999}
+.comments .comments-list .comment-li .comment-li { padding-left:20px}
+.comments .comments-list .comment-main { padding:20px 0}
+.comments .comments-list .comment-main .reply-you { padding-top:20px}
+.comments .comments-list .comment-main .con { color:#999; padding-top:20px}
+.comments .reply-form form { margin:20px 0 50px 0 }
+.comments .reply-form form section.fn-ov { width:590px}
+.comments .reply-form form section.fn-ov div { width:999px}
+.comments .reply-form form section input.text { width:184px}
+/* aboutMe */
+#aboutMe article a { text-decoration:underline}
+#aboutMe h2 { color:#A40000; padding:20px 0 10px 0}
+#aboutMe .aboutMeCon dl dt { font-size:14px; color:#A40000; padding:10px 0; font-weight:bold}
+/* duoshuo */
+#ds-thread ul.ds-comments-tabs li.ds-tab a.ds-current { background:none !important; border:none !important; padding-left:0 !important}
+#ds-thread li.ds-post { border-top:none !important; border-bottom:1px solid #ddd}
+#ds-thread .ds-children-wrapper li.ds-post { border:none !important}
+#ds-thread .ds-comments { border-top:1px solid #ddd !important}
+#ds-thread .ds-avatar img, #ds-dialog-wrapper .ds-avatar img { box-shadow:none !important; border-radius:2px !important; border:1px solid #ddd}
+#ds-thread .ds-visitor-avatar img { border-radius:0 !important}
+#ds-thread .ds-post-options .ds-sync { display:none !important}
+#ds-thread .ds-login-buttons { padding:20px 0 5px 5px !important; overflow:hidden !important; _zoom:1; border:none !important}
+#ds-thread .ds-login-buttons .ds-service-list { height:auto !important}
+#ds-thread .ds-login-buttons p { float:none !important; display:block !important; padding-bottom:5px !important; color:#666 !important}
+#ds-thread .ds-login-buttons li { margin:2px !important}
+#ds-thread .ds-replybox { clear:both !important}
+/* 代码高亮部分 */
+.crayon-syntax .crayon-num, .crayon-syntax .crayon-line { padding:3px 5px !important}
+/* 宽度在320-480之间，iphone调用此处样式 */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+/* duoshuo */
+/* 多说评论框的浮层部分在iphone下的样式 */
+#ds-dialog-wrapper { top:0 !important; padding-top:10px !important}
+#ds-dialog-wrapper h2 { margin:0 0 5px 0 !important}
+#ds-dialog-wrapper ul li { margin:5px !important}
+#ds-dialog-wrapper .ds-dialog-login { padding:0 !important; width:auto !important}
+#ds-dialog-wrapper .ds-dialog-login .ds-dialog-body { height:auto !important; padding:10px 20px !important}
+#ds-dialog-wrapper .ds-dialog-inner { -webkit-border-radius:none !important; border:none !important; border-radius:0 !important; background:#fff !important; border-top:1px solid #ddd !important; border-bottom:1px solid #ddd !important}
+#ds-dialog-wrapper .ds-dialog-left { overflow:hidden !important; _zoom:1;}
+#ds-dialog-wrapper .ds-dialog-right { position:static !important; left:auto !important;padding-left:0 !important; border-left:none !important; border-top:1px solid #ddd; padding-top:10px !important; margin-top:10px !important; width:auto !important}
+#ds-dialog-wrapper .ds-dialog-login .ds-dialog-body { height:auto !important}
+#ds-dialog-wrapper .ds-dialog-left li { float:left !important}
+#ds-dialog-wrapper .ds-service-list { float:none !important; width:auto !important}
+#ds-dialog-wrapper .ds-dialog-close { width:auto !important; padding-left:15px !important}
+#ds-dialog-wrapper .ds-dialog-close:after { content:'关闭'}
+#ds-thread .ds-toolbar-buttons { display:none !important}
+}
+/* 当宽度小于最小宽度时调用下面单栏样式，ipad也使用此处的样式*/
+@media only screen and (max-width: 1199px) {
+section.page { width:90%; margin:0 auto}
+img { max-width:100%; height:auto;}
+che nav,
+che footer { display:none}
+che header { text-align:center; padding:20px 0}
+che header span { text-transform:uppercase}
+section.content { border-top:1px solid #ddd; padding-top:0; margin-bottom:20px}
+article.post { padding:20px 0; margin-bottom:20px; border-bottom:1px solid #ddd; font-size:12px;}
+article.post h2 { font-size:12px; padding-bottom:5px}
+article.post div.con { margin:10px 0;}
+article.post div.con p,
+article.post div.con ul { margin-bottom:5px}
+article.post div.con p img { margin-top:5px}
+}
