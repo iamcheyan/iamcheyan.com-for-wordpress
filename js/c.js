@@ -1,5 +1,4 @@
-﻿//判断浏览器
-var $navigator = navigator.userAgent.toLowerCase();
+﻿var $navigator = navigator.userAgent.toLowerCase();
 var $browser = {
 	IE: /msie/.test($navigator),
 	OPERA: /opera/.test($navigator),
@@ -8,7 +7,8 @@ var $browser = {
 	IE7: /msie 7/.test($navigator),
 	SAFARI: /safari/.test($navigator)
 	};
-	
+//判断浏览器
+
 //计算元素宽度
 var $countElements = function(){
 	$docWidth = $(window).width();

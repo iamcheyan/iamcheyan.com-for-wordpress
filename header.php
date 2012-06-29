@@ -20,7 +20,7 @@
 <link rel="shortcut icon" href="http://works.iamcheyan.com/favicon.ico" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jq.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/c.min.js?201205243"  type="text/javascript"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/c.min.js"  type="text/javascript"></script>
 <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/ie.css" />
 	<script src="<?php bloginfo('template_url'); ?>/js/html5.js"></script>
@@ -42,6 +42,7 @@
 ?><?php */?>
 </head>
 <body>
+	<div class="ui-y"></div>
 <section class="page">
 	<che>
 		<section>
